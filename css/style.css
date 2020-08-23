@@ -24,6 +24,7 @@ h1 {
     outline: none;
     padding-left: 15px;
     border: solid silver;
+    font-family: cursive;
 }
 
 button {
@@ -34,6 +35,11 @@ button {
     outline: none;
     background-color: darkseagreen;
     border: solid darkseagreen;
+}
+span {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .foota {
@@ -50,8 +56,13 @@ button {
 h3 {
     margin-left: 90px;
     text-transform: uppercase;
+    /* color: red; */
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
     .main {
         width: 100%;
         height: auto;
